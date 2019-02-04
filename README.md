@@ -8,7 +8,7 @@ Network built
 train epoch 0 n 0 value_loss 1.0111103057861328
 train epoch 0 n 1 value_loss 0.9735496640205383
 train epoch 0 n 2 value_loss 0.9211722016334534
-train epoch 0 n 3 value_loss 0.8193354606628418
+train epoch 0 n 3 value_loss 0.8193354606628418\\
 train epoch 0 n 4 value_loss 0.6632522940635681
 train epoch 0 n 5 value_loss 0.42712828516960144
 train epoch 0 n 6 value_loss 0.07727818936109543
