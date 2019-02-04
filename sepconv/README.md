@@ -1,1 +1,4 @@
-I am afraid that this implementation of separable convolutions does not include the backwards pass. You will thus have to add it yourself if you want to perform training or fine-tuning. Please note that this is not my decision, I just did not get the approval to release this part of the code.
+I wrote backward pass of https://github.com/sniklaus/pytorch-sepconv.
+Because there was not a train code, feel free to use it for your research.
+But don't forget to check description of https://github.com/sniklaus/pytorch-sepconv.
+Thank you.
