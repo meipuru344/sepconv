@@ -27,7 +27,6 @@ sys.path.insert(0, './sepconv'); import sepconv
 class Network(torch.nn.Module):
     def __init__(self):
         super(Network, self).__init__()
-        #####カスタムレイヤーの宣言#####
         def Basic(intInput, intOutput):
             return torch.nn.Sequential(
                 torch.nn.Conv2d(in_channels=intInput, out_channels=intOutput, kernel_size=3, stride=1, padding=1),
@@ -50,7 +49,6 @@ class Network(torch.nn.Module):
                 torch.nn.Conv2d(in_channels=51, out_channels=51, kernel_size=3, stride=1, padding=1)
             )
             # end
-        #####ネットワーク層の初期化#########1,6,128,128  -> 1,51,128,256
         self.moduleConv1 = Basic(6, 32)
         self.modulePool1 = torch.nn.AvgPool2d(kernel_size=2, stride=2)
 
@@ -196,4 +194,5 @@ if True:
 if False:
     torch.save(moduleNetwork.state_dict(), "../models/"+predir)
 
-print('process finished')
+print('process finished')
+
